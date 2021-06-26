@@ -17,7 +17,12 @@
             <input id="first" name="Year" type="number ">
             <h3>What is the Showroom Price?(In lakhs)</h3><br><input id="second" name="Present_Price" required="required">
             <h3>How Many Kilometers Drived?</h3><input id="third" name="Kms_Driven" required="required">
-            <h3>How much owners previously had the car(0 or 1 or 3) ?</h3><br><input id="fourth" name="Owner" required="required">
+            <h3>How many owners previously had the car(0,1,2 or 3) ?</h3><br><select  name="Owner" id="fourth" required="required">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
             <h3>What Is the Fuel type?</h3><br><select name="Fuel_Type_Petrol" id="fuel" required="required">
                 <option value="Petrol">Petrol</option>
                 <option value="Diesel">Diesel</option>
@@ -31,7 +36,7 @@
                 <option value="Mannual">Manual Car</option>
                 <option value="Automatic">Automatic Car</option>
             </select>
-            <br><br><button id="sub" type="submit ">Calculate the Selling Price</button>
+            <br><br><button id="sub" type="submit ">Selling Price Predictor</button>
             <br>
 
 
@@ -49,9 +54,11 @@
 
     <style>
         body {
-            background-color: pink;
-            text-align: center;
-            padding: 0px;
+          background-image: url("https://wallpapercave.com/wp/wp4786592.jpg");
+          background-position: 200%;
+          background-size: cover;
+          text-align: center;
+          padding: 0px;
         }
         
         #research {
