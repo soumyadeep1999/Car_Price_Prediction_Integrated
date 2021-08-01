@@ -1,4 +1,4 @@
-# Car_Price_Prediction_Integrated
+# Car Prediction using Flask end to end deployment in heroku
 
 Deployment in heroku app
 https://carpricepredictor01.herokuapp.com/
